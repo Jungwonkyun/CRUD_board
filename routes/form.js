@@ -3,9 +3,6 @@ var router = express.Router();
 
 router.get('/', function (req, res) {
     res.render('form', {
-        name: 'Lee Jin Hyun',
-        blog: 'gocoder.tistory.com',
-        homepage: 'gocoder.net'
     });
 });
 

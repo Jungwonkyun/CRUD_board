@@ -85,7 +85,7 @@ router.post("/update", function (req, res, next) {
         "<script>alert('패스워드가 일치하지 않습니다.');history.back();</script>"
       );
     } else {
-      res.redirect("/board/read/" + idx);
+      res.redirect("/board/page/1" + idx);
     }
   });
 });
